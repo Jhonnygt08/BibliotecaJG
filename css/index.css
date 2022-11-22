@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #E7EB30;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+h3{
+    display: grid;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: #E7EB30;
+    text-decoration: none;
+}
+.ingresar{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/shutterstock_522019972.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+nav>a{
+    border: 2px solid  #000000;
+    text-decoration: none;
+    padding: 20px;
+}
+.Container{
+    text-align: center;
+}
+.ingreso{
+    display: grid;
+    height: 400px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+table{
+    background-color: orange;
+}
+img{
+    height: 1000px;
+    width: 2550px;
+}
+footer{
+    background-color: #E7EB30;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td{
+    font-size: 30px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

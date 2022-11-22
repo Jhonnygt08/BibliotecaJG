@@ -1,0 +1,56 @@
+h4{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.menucrear{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    text-align: left;
+}
+.salirinicio{
+    display: grid;
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#barracrear{
+    margin-left: 20px;
+}
+.crear{
+    background-color: rgb(200, 102, 63);
+    grid-template-columns: auto;
+    justify-content: center;
+    display: grid;
+    height: 400px;
+}
+
+.crear>div{
+    border: 2px solid black;
+}
+.usuario{
+    display: grid;
+    grid-template-columns: 1750px 50px 60px;
+}
+
+
+label{
+    float: right;
+}
+
+input{
+    margin-left: 8px;
+}
+
+select{
+    margin-left: 8px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
